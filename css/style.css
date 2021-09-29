@@ -431,7 +431,7 @@ section{
 @media (max-width:768px){
 
     #menu-btn{
-        display: block;
+        display: inline-block;
     }
 
     .header .navbar{
@@ -467,7 +467,10 @@ section{
     .home .content p{
         font-size: 1.5rem;
     }
-
+     
+    .products .box data-aos {
+        display: none;
+    }
 }
 
 @media (max-width:450px){
